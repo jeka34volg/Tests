@@ -9,15 +9,11 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 };
 
-//namespace StringUtilsTest;
+use Webmozart\Assert\Assert;
+use function StringUtils\capitalize;
 
+Assert::eq(capitalize('hello'), "Hello");
 
-if (StringUtils\capitalize('hello') !== 'Hello') {
-    throw new \Exception('Функция работает неверно!');
-}
-
-if (StringUtils\capitalize('') !== '') {
-    throw new \Exception('Функция работает неверно!');
-}
+Assert::eq(capitalize(''), '');
 
 echo 'Все тесты пройдены!';

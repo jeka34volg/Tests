@@ -13,5 +13,7 @@
             "email": "jeka34volg@maail.ru"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "webmozart/assert": "^1.11"
+    }
 }
