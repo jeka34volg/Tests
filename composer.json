@@ -1,0 +1,17 @@
+{
+    "name": "jeka34volg/tests",
+    "description": "Tests",
+    "type": "project",
+    "autoload": {
+        "files": [
+            "src/StringUtils.php"
+        ] 
+    },
+    "authors": [
+        {
+            "name": "Евгений Кадыков",
+            "email": "jeka34volg@maail.ru"
+        }
+    ],
+    "require": {}
+}
